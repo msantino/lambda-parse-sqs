@@ -12,4 +12,4 @@ jobs:
     - name: Python Pytest Github Action
       uses: fylein/python-pytest-github-action@v2
       with:
-        args: pip3 install -r requirements.txt && pytest --log-level=INFO
+        args: pip3 install -r requirements.txt && python -m pytest --log-level=INFO

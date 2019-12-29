@@ -9,6 +9,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
+    - name: Install dependencies
+      runs: pip3 install -r requirements.txt
     - name: Python Pytest Github Action
       uses: fylein/python-pytest-github-action@v2
       with:

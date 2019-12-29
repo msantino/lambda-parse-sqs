@@ -13,10 +13,11 @@ ext_modules = []
 
 setup(
     name='lambda_parse_sqs',  
-    version='0.2',
+    version='0.2.1',
     author="Marcelo Santino",
     author_email="eu@marcelosantino.com.br",
     description="Parse SQS messages from lambda triggered SQS subscription",
+    url='https://github.com/msantino/lambda-parse-sqs',
     long_description=io.open('README.md', 'r', encoding='utf-8').read(),
     long_description_content_type="text/markdown",
     packages=find_packages(exclude=['tests']),

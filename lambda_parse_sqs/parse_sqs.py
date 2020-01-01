@@ -1,5 +1,4 @@
 from .errors import *
-from .utils import config_log
 from .sqs_message_parser import Parser
 
 

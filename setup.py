@@ -1,12 +1,8 @@
-import glob
-import imp
 import io
-import os
 from os import path
-from setuptools import setup, find_packages, Extension
-import sys
+from setuptools import setup, find_packages
 
-MYDIR = path.abspath(os.path.dirname(__file__))
+MYDIR = path.abspath(path.dirname(__file__))
 
 cmdclass = {}
 ext_modules = []
